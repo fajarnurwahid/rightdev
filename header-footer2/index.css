@@ -61,6 +61,12 @@ html {
   width: 100%;
 }
 
+hr {
+  height: 1px;
+  border: none;
+  background-color: var(--grey);
+}
+
 iframe {
   width: 100%;
   border: none;
