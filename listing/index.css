@@ -1,0 +1,117 @@
+/* start: Listing */
+.listing-wrapper {
+    display: grid;
+    grid-template-columns: 256px 1fr;
+    gap: 32px;
+}
+.form-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 14px;
+}
+.listing-filter a {
+    display: flex;
+    font-size: 20px;
+    color: var(--blue);
+    margin-bottom: 16px;
+    justify-content: space-between;
+}
+.listing-item {
+    display: flex;
+    padding: 8px;
+    border: 1px solid var(--grey);
+    border-radius: 6px;
+}
+.listing-image {
+    min-width: 200px;
+    width: 200px;
+    margin-right: 16px;
+}
+.listing-image img {
+    display: block;
+    height: 100%;
+    object-fit: contain;
+    width: 100%;
+    background-color: var(--white-d-1);
+}
+.listing-item-header {
+    display: flex;
+    justify-content: space-between;
+}
+.listing-item-title-wrapper {
+    margin-right: 16px;
+}
+.listing-item-price-type {
+    text-align: right;
+}
+.listing-pagination-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 16px;
+}
+.listing-pagination {
+    display: flex;
+    align-items: center;
+}
+.listing-pagination a {
+    color: var(--dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+.listing-pagination a:hover {
+    background-color: var(--white-d-1);
+}
+/* end: Listing */
+
+
+
+@media screen and (max-width: 991px) {
+    .listing-wrapper {
+        grid-template-columns: 1fr;
+    }
+    .listing-search {
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .listing-item {
+        flex-direction: column;
+    }
+    .listing-image {
+        width: 100%;
+        height: 200px;
+        margin-right: 0;
+        margin-bottom: 24px;
+    }
+}
+
+
+
+@media screen and (max-width: 575px) {
+    .listing-item-header {
+        flex-direction: column;
+    }
+    .listing-item-title-wrapper {
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+    .listing-item-price-type {
+        text-align: left;
+    }
+    .listing-pagination-wrapper {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .listing-pagination {
+        margin-top: 16px;
+    }
+}
