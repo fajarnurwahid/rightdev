@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flippa</title>
+    <link rel="stylesheet" href="../header-footer2/index.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <!-- start: Content -->
+    <section class="py-5">
+        <div class="container">
+            <div class="content-wrapper">
+                <div>
+                    <div class="flex items-center justify-between flex-wrap">
+                        <span class="uppercase font-medium mb-2 mr-2">Ecommerce Store</span>
+                        <div class="flex items-center mb-2">
+                            <span class="flex items-center font-medium mr-2">
+                                <svg class="mr-1 md">
+                                    <use xlink:href="index.svg#info-fill"></use>
+                                </svg>
+                                Currency:
+                            </span>
+                            <select name="currency" class="currency-select">
+                                <option value="usd">USD $</option>
+                            </select>
+                        </div>
+                    </div>
+                    <a href="#" class="text-xl font-medium text-dark online-block mb-1">
+                        Bee Mission
+                        <svg class="sm fill-grey">
+                            <use xlink:href="index.svg#external-link"></use>
+                        </svg>
+                    </a>
+                    <p class="mb-3">Niche eCommerce Website That Generated $2.74 Million in Revenue Over Past 27 Months.</p>
+                    <div class="flex flex-wrap">
+                        <a href="#" class="category-item mr-2 mb-2">Ecommerce</a>
+                        <a href="#" class="category-item mr-2 mb-2">Ecommerce</a>
+                        <a href="#" class="category-item mr-2 mb-2">
+                            <svg class="mr-1 sm fill-orange">
+                                <use xlink:href="index.svg#star-fill"></use>
+                            </svg>
+                            Ecommerce
+                        </a>
+                    </div>
+                    <div class="flex flex-wrap mt-1 business-information">
+                        <div>
+                            <span>Site Age</span>
+                            <div class="text-lg font-medium">4 Years</div>
+                        </div>
+                        <div>
+                            <span>Monthly Profit</span>
+                            <div class="text-lg font-medium">USD $7,152 /mo</div>
+                        </div>
+                        <div>
+                            <span>Profit Margin</span>
+                            <div class="text-lg font-medium">11%</div>
+                        </div>
+                        <div>
+                            <span>Profit Multiple</span>
+                            <div class="text-lg font-medium">0.9x</div>
+                        </div>
+                        <div>
+                            <span>Revenue Multiple</span>
+                            <div class="text-lg font-medium">0.1x</div>
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <div class="flex overflow-x-auto">
+                            <button type="button" class="business-tab-button active" data-toggle="tab" data-target="#market-insight">
+                                <svg class="mr-1 sm">
+                                    <use xlink:href="index.svg#insight"></use>
+                                </svg>
+                                Market Insights
+                                <span>New</span>
+                            </button>
+                            <button type="button" class="business-tab-button" data-toggle="tab" data-target="#performance-overview">
+                                <svg class="mr-1 sm">
+                                    <use xlink:href="index.svg#insight"></use>
+                                </svg>
+                                Performance Overview
+                            </button>
+                        </div>
+                        <div class="business-tab active" id="market-insight">
+                            <h2 class="text-lg font-medium">Market Insights</h2>
+                            <p class="text-grey">Showing 10 similar listings</p>
+                            <div id="business-insight-chart"></div>
+                            <a href="#" class="get-alert-button my-2">
+                                <svg class="mr-1 md">
+                                    <use xlink:href="index.svg#bell"></use>
+                                </svg>
+                                Get alerted when similar listings appear
+                            </a>
+                            <div class="overflow-x-auto mb-4">
+                                <table class="business-table">
+                                    <thead>
+                                        <tr>
+                                            <th class="asc">Listing Description</th>
+                                            <th class="desc">Status</th>
+                                            <th>Price</th>
+                                            <th>Profit Multiple</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div class="flex items-center">
+                                                    <img src="https://www.rightbiz.co.uk/thumbnails/_img/1/294359/?t=1654355126" alt="" class="business-table-image mr-1">
+                                                    <a href="#" class="text-dark">Pure OriginsNet Profit USD $2,169/mo5 Years Old | FBA Storefront</a>
+                                                </div>
+                                            </td>
+                                            <td><span class="business-table-status whitespace-nowrap">For Sale</span></td>
+                                            <td class="text-center whitespace-nowrap">USD $75,290</td>
+                                            <td class="text-center whitespace-nowrap">2.9x</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="flex items-center">
+                                                    <img src="https://www.rightbiz.co.uk/thumbnails/_img/1/294359/?t=1654355126" alt="" class="business-table-image mr-1">
+                                                    <a href="#" class="text-dark">Pure OriginsNet Profit USD $2,169/mo5 Years Old | FBA Storefront</a>
+                                                </div>
+                                            </td>
+                                            <td><span class="business-table-status whitespace-nowrap">For Sale</span></td>
+                                            <td class="text-center whitespace-nowrap">USD $75,290</td>
+                                            <td class="text-center whitespace-nowrap">2.9x</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="flex items-center">
+                                                    <img src="https://www.rightbiz.co.uk/thumbnails/_img/1/294359/?t=1654355126" alt="" class="business-table-image mr-1">
+                                                    <a href="#" class="text-dark">Pure OriginsNet Profit USD $2,169/mo5 Years Old | FBA Storefront</a>
+                                                </div>
+                                            </td>
+                                            <td><span class="business-table-status whitespace-nowrap">For Sale</span></td>
+                                            <td class="text-center whitespace-nowrap">USD $75,290</td>
+                                            <td class="text-center whitespace-nowrap">2.9x</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="flex items-center">
+                                                    <img src="https://www.rightbiz.co.uk/thumbnails/_img/1/294359/?t=1654355126" alt="" class="business-table-image mr-1">
+                                                    <a href="#" class="text-dark">Pure OriginsNet Profit USD $2,169/mo5 Years Old | FBA Storefront</a>
+                                                </div>
+                                            </td>
+                                            <td><span class="business-table-status whitespace-nowrap">For Sale</span></td>
+                                            <td class="text-center whitespace-nowrap">USD $75,290</td>
+                                            <td class="text-center whitespace-nowrap">2.9x</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div class="text-center mt-2">
+                                    <a href="#" class="text-blue">Show More</a>
+                                </div>
+                            </div>
+                            <div class="text-right mb-2">
+                                <a href="#" class="text-blue">View more similar listings →</a>
+                            </div>
+                            <div class="business-tab-information mb-4">
+                                <div>
+                                    <span class="text-grey">Site Age</span>
+                                    <div class="text-lg font-medium">4 years</div>
+                                    <span class="text-grey">Peer Benchmark. 4 years</span>
+                                </div>
+                                <div>
+                                    <span class="text-grey">Monthly Profit</span>
+                                    <div class="text-lg font-medium">USD $7,152 /mo</div>
+                                    <span class="text-grey">Peer Benchmark. USD $2,972/mo</span>
+                                </div>
+                                <div>
+                                    <span class="text-grey">Profit Margin</span>
+                                    <div class="text-lg font-medium">11%</div>
+                                    <span class="text-grey">Peer Benchmark. 28%</span>
+                                </div>
+                                <div>
+                                    <span class="text-grey">Profit Multiple</span>
+                                    <div class="text-lg font-medium">0.9x</div>
+                                    <span class="text-grey">Peer Benchmark. 2.2x</span>
+                                </div>
+                            </div>
+                            <p class="text-center">*Peer benchmarks are calculated using proprietary Flippa data on similar assets within the price range of this listing.</p>
+                            <p class="text-center">Powered by Flippa Data Team. <a href="#" class="text-blue">Learn more</a></p>
+                        </div>
+                        <div class="business-tab" id="performance-overview">
+                            <h2 class="text-lg font-medium">Performance Overview</h2>
+                        </div>
+                    </div>
+                    <div class="mt-4 business-about">
+                        <h2 class="text-xl font-medium mb-2">About the business</h2>
+                        <div class="mb-3">
+                            <h3 class="text-lg font-medium mb-1">Key Highlights</h3>
+                            <ul class="key-features">
+                                <li>The brand has generated over 500 million impressions across various online marketing channels since its inception.</li>
+                                <li>Generated over 700 pieces of proprietary educational information, including a published book.</li>
+                                <li>Owns trademarks and with an inventory currently worth $100K - $150K in retail.</li>
+                                <li>Current text/email list has about 130K users.</li>
+                                <li>Facebook has 165K followers and Instagram with 25K followers.</li>
+                                <li>Business has been mainly run part-time with minimal effort. Poised for scale and growth in the hands of the right owners.</li>
+                            </ul>
+                        </div>
+                        <div class="mb-3">
+                            <h3 class="text-lg font-medium mb-1">Operations</h3>
+                            <p class="mb-1">The business requires little supervision (30 minutes a week), with most of the heavy lifting done by subcontractors. Currently, there are 6 contractors and 2 agencies, and most of the work is outsourced to them.</p>
+                            <p class="mb-1">Our product line is sold directly to consumers, with most sold to domestic customers and a healthy list of engaged and repeat buyers. The products are sold 100% on the Shopify platform, with traffic driven from SEO, Facebook, Instagram & Google Advertising.</p>
+                            <p class="mb-1">When a customer places an order on our website, our 3PL partner fulfils and ships the order from their location in the US. We offer 2-5 day shipping or even 1 day express shipping.</p>
+                        </div>
+                        <div class="mb-3">
+                            <h3 class="text-lg font-medium mb-1">Customers</h3>
+                            <p class="mb-1">Our product line is sold directly to consumers, with most sold to domestic customers and a healthy list of engaged and repeat buyers. The products are sold 100% on the Shopify platform, with traffic driven from SEO, Facebook, Instagram & Google Advertising.</p>
+                        </div>
+                        <div class="mb-3">
+                            <h3 class="text-lg font-medium mb-1">Financials</h3>
+                            <p class="mb-1">Profit margins can be improved if the new acquirer has an existing team that can replace the contractors, if not - the contractors are willing to stay on post-sale.</p>
+                            <p class="mb-1">With regards to the financial highlights, 2020 Is the most accurate look at the business when it was running full steam ahead.</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="text-blue business-about-read-all">Read all (2 min)</a>
+                    </div>
+                    <hr class="mt-4 mb-2">
+                    <div class="mb-3">
+                        <h3 class="text-lg font-medium mb-1">Monetization Methods</h3>
+                        <div class="flex items-center">
+                            <img src="img/dropshipping.png" alt="" class="image-icon mr-1">
+                            Dropshipping
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <h3 class="text-lg font-medium mb-1">Products used</h3>
+                        <div class="flex items-center mb-1">
+                            <img src="img/shopify.png" alt="" class="image-icon mr-1">
+                            Shopify
+                        </div>
+                        <div class="flex items-center">
+                            <img src="img/stripe.png" alt="" class="image-icon mr-1">
+                            Stripe
+                        </div>
+                    </div>
+                    <div class="mb-3 p-2 border border-grey rounded">
+                        <h3 class="text-lg font-medium mb-1">Revenue & Profit</h3>
+                        <hr class="mb-2">
+                        <h3 class="text-lg font-medium mb-1">Financial Statistics</h3>
+                        <div class="flex flex-wrap">
+                            <div class="mb-2 mr-5">
+                                <span>Annual Revenue</span>
+                                <div class="text-md font-medium">USD $756,528</div>
+                            </div>
+                            <div class="mb-2 mr-5">
+                                <span>Annual Profit</span>
+                                <div class="text-md font-medium">USD $85,824</div>
+                            </div>
+                            <div class="mb-2 mr-5">
+                                <span>Profit Margin</span>
+                                <div class="text-md font-medium">11%</div>
+                            </div>
+                            <div class="mb-2 mr-5">
+                                <span>Profit Multiple</span>
+                                <div class="text-md font-medium">0.9x</div>
+                            </div>
+                            <div class="mb-2 mr-5">
+                                <span>Monthly Revenue</span>
+                                <div class="text-md font-medium">USD $63,044 AVG</div>
+                            </div>
+                            <div class="mb-2 mr-5">
+                                <span>Monthly Profit</span>
+                                <div class="text-md font-medium">USD $7,152 AVG</div>
+                            </div>
+                            <div class="mb-2 mr-5">
+                                <span>Revenue Multiple</span>
+                                <div class="text-md font-medium">0.1x</div>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <a href="#" class="button button-blue button-inline">Download Profit & Loss Statement</a>
+                        </div>
+                    </div>
+                    <div class="mb-3 p-2 border border-grey rounded">
+                        <h3 class="text-lg font-medium mb-4 flex flex-wrap justify-between items-center">
+                            <span class="mr-2">In-Depth Traffic Analysis</span>
+                            <svg class="semrush-logo">
+                                <use xlink:href="index.svg#semrush-logo"></use>
+                            </svg>
+                        </h3>
+                        <div class="flex flex-wrap">
+                            <div class="mb-2 mr-4">
+                                <span class="text-grey">Authority Score</span>
+                                <div id="authority-score"></div>
+                            </div>
+                            <div class="mb-2 mr-4">
+                                <span class="text-grey">Referring Domains</span>
+                                <div class="text-lg font-medium">495</div>
+                            </div>
+                            <div class="mb-2 mr-4">
+                                <span class="text-grey">Backlinks</span>
+                                <div class="text-lg font-medium">2.5K</div>
+                            </div>
+                            <div class="mb-2 mr-4">
+                                <span class="text-grey">Total Keywords</span>
+                                <div class="text-lg font-medium">7.77K</div>
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="text-lg font-medium">Top organic keywords:</h4>
+                            <p class="text-grey">Black Honey, Bee Necklace, Save The Bees, You Are My Sunshine Necklace, and Honey Black</p>
+                        </div>
+                        <hr class="my-2">
+                        <div class="business-traffic mb-4">
+                            <div>
+                                <div class="font-medium mb-1">Organic Traffic Details</div>
+                                <span style="width: 90%;"></span>
+                                <span style="width: 60%;"></span>
+                                <span style="width: 70%;"></span>
+                                <span style="width: 34%;"></span>
+                            </div>
+                            <div>
+                                <div class="font-medium mb-1">Backlink Profile</div>
+                                <span style="width: 65%;"></span>
+                                <span style="width: 45%;"></span>
+                                <span style="width: 67%;"></span>
+                                <span style="width: 78%;"></span>
+                            </div>
+                            <div>
+                                <div class="font-medium mb-1">Referring Domains</div>
+                                <span style="width: 56%;"></span>
+                                <span style="width: 89%;"></span>
+                                <span style="width: 78%;"></span>
+                                <span style="width: 87%;"></span>
+                            </div>
+                            <div>
+                                <div class="font-medium mb-1">Competitor Analysis</div>
+                                <span style="width: 67%;"></span>
+                                <span style="width: 76%;"></span>
+                                <span style="width: 98%;"></span>
+                                <span style="width: 56%;"></span>
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="text-center text-lg font-medium">Buy the full report</h4>
+                            <p class="text-center mb-3">Buy an analytics report on this business from our partner SEMrush. Includes content analysis, traffic insights, site health, competitive landscape, and more.</p>
+                            <div class="text-center">
+                                <a href="#" class="button button-orange button-inline">
+                                    <svg class="mr-1 md">
+                                        <use xlink:href="index.svg#lock-fill"></use>
+                                    </svg>
+                                    Buy the full report
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <h3 class="text-lg font-medium mb-1">Sale includes</h3>
+                        <ul class="business-sale-includes">
+                            <li class="flex items-center">
+                                <svg class="mr-1 md fill-green">
+                                    <use xlink:href="index.svg#check-fill"></use>
+                                </svg>
+                                Domains
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="mr-1 md fill-green">
+                                    <use xlink:href="index.svg#check-fill"></use>
+                                </svg>
+                                Website files
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="mr-1 md fill-green">
+                                    <use xlink:href="index.svg#check-fill"></use>
+                                </svg>
+                                Email Address
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="mr-1 md fill-green">
+                                    <use xlink:href="index.svg#check-fill"></use>
+                                </svg>
+                                Social media accounts
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="mr-1 md fill-green">
+                                    <use xlink:href="index.svg#check-fill"></use>
+                                </svg>
+                                Email subscriber list
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="mr-1 md fill-green">
+                                    <use xlink:href="index.svg#check-fill"></use>
+                                </svg>
+                                Inventory (stock)
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="mr-1 md fill-green">
+                                    <use xlink:href="index.svg#check-fill"></use>
+                                </svg>
+                                Brand assets (logos, etc)
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="mr-1 md fill-green">
+                                    <use xlink:href="index.svg#check-fill"></use>
+                                </svg>
+                                Phone number(s)
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="mr-1 md fill-green">
+                                    <use xlink:href="index.svg#check-fill"></use>
+                                </svg>
+                                Supplier contracts
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="mr-1 md fill-green">
+                                    <use xlink:href="index.svg#check-fill"></use>
+                                </svg>
+                                Trademarks/patents
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="mr-1 md fill-green">
+                                    <use xlink:href="index.svg#check-fill"></use>
+                                </svg>
+                                Unique content
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="mr-1 md fill-green">
+                                    <use xlink:href="index.svg#check-fill"></use>
+                                </svg>
+                                Unique design
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mb-3">
+                        <h3 class="text-lg font-medium mb-1">Products used</h3>
+                        <div class="flex flex-wrap">
+                            <div class="mb-2 mr-5">
+                                <span>Inventory value</span>
+                                <div class="text-md font-medium">USD $10,000 <span class="text-sm text-grey">Included in sale price</span></div>
+                            </div>
+                            <div class="mb-2 mr-5">
+                                <span>Platform</span>
+                                <div class="text-md font-medium">Offer Schema</div>
+                            </div>
+                            <div class="mb-2 mr-5">
+                                <span></span>
+                                <div class="text-md font-medium">Post-sale support <span class="text-sm text-grey">Included</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="mb-3">
+                    <div class="mb-3">
+                        <h3 class="text-lg font-medium mb-1">Attachments</h3>
+                        <div class="attachment-item">
+                            <span>XLSX</span>
+                            <div class="flex justify-between items-center p-2 w-full">
+                                <span>P&L</span>
+                                <a href="#">
+                                    <svg class="mr-1 md">
+                                        <use xlink:href="index.svg#download"></use>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <h3 class="text-lg font-medium mb-1">Comments</h3>
+                        <textarea name="" id="" cols="30" rows="5" class="form-textarea w-full" placeholder="Questions added here are shared with all participants. Please keep comments productive. Unproductive or offensive comments can result in account suspension. Use ‘Contact Seller’ to request analytics access, pricing info, or to message the seller privately."></textarea>
+                        <a href="#" class="text-blue">Contact Seller</a>
+                        <div class="text-right mt-1">
+                            <button type="submit" class="button button-orange button-inline">Send Message</button>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <div class="comment-item mb-2">
+                            <img src="https://www.rightbiz.co.uk/thumbnails/_img/1/294359/?t=1654355126" alt="">
+                            <div>
+                                <div class="text-md font-medium mb-1">Todd <span class="text-sm text-grey">new Oct 24, 2022 06:00 AM</span></div>
+                                <p class="text-grey">If the sales are via Shopify and the payment processor is Stripe, why are these not connected to the listing? Google should also be connected to show traffic to the site. </p>
+                                <div class="flex mt-1 flex-wrap justify-end">
+                                    <a href="#" class="text-blue mb-1 mr-2">Report this comment</a>
+                                    <a href="#" class="text-blue mb-1">Reply</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment-item mb-2">
+                            <img src="https://www.rightbiz.co.uk/thumbnails/_img/1/294359/?t=1654355126" alt="">
+                            <div>
+                                <div class="text-md font-medium mb-1">Todd <span class="text-sm text-grey">new Oct 24, 2022 06:00 AM</span></div>
+                                <p class="mb-1 text-grey">Hello, I am interested in purchasing your company "Bee Mission." I have a lot of capital and buy lots of am always buying companies just never in the e-comm sector. Most of them are physical stores, warehouse, apartment, offices etc. etc.. I have wanted to get into the E-comm space and after reading hundreds of ads I like yours's the most. Especially because of my business skills and huge amounts of important business contacts worldwide (especially in Asia) and with those two things I believe I can definitely grow it with the help of some tech people for sure (at least until I know enough on my own.) I have just changed some things in my portfolio to turn some assets into liquid cash for these purchases, I want to buy 3,4,5 more e-comm business. I am only 37 but have a chronic health disease which can make me extremely sick at times, so I much prefer to work from home because of my illness, it is a lot easier for me as I don't know from one day to the next how I capable I will be to leave my house. I am very interested in buying e-comm companies asap. that is why I am sitting on a lot of cash and so that cash is not making me money sitting in a bank account. Just to let you know I am very easy and reasonable person to work with and compromise with. I want us to both make money at the end of the day. I am not going to drag this out and also try to squeeze pennies out of somebody. Relationships, trust and keeping your word are the most important traits when in business and purchasing companies however there are a ton of people who don't think my way and always want as much money for them no matter what they have to do to get it when buying businesses, i am definitely not that guy. I haven't ever bought an e-comm site so would please be able to get back to me and let me know the next steps we need to take in order to get a deal done sooner rather then later. Especially because I will not be using a broker and will be dueing everything myself with the exception of a lawyer a to do everything necessary for the legal side of this purchase and all proper paperwork transferring from you to me. I really hope we can work together and make a good deal for both of us.Thank you so much, I really look forward to hearing back from you.</p>
+                                <p class="text-grey">John(902) 830 7273 (if you are planning to call me) please text me first as I get so many spam calls, I have stopped answering numbers I don't know. So, texting or replaying to this msg. would be a great first contact and hopefully we can start putting a deal together, very soon that is fair for both you and me. Thank you again!!</p>
+                                <div class="flex mt-1 flex-wrap justify-end">
+                                    <a href="#" class="text-blue mb-1 mr-2">Report this comment</a>
+                                    <a href="#" class="text-blue mb-1">Reply</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="business-card mb-4">
+                        <img src="https://www.rightbiz.co.uk/thumbnails/_img/1/294359/?t=1654355126" alt="" class="business-card-image">
+                        <div class="p-2">
+                            <span class="text-sm text-grey">Asking Price (Classified)</span>
+                            <div class="text-lg font-medium">USD $75,000</div>
+                            <hr class="my-1">
+                            <div class="text-grey mb-2">Includes USD $10,000 of inventory</div>
+                            <a href="#" class="mb-1 button button-green">
+                                <svg class="mr-1 md">
+                                    <use xlink:href="index.svg#lock-fill"></use>
+                                </svg>
+                                Contact Seller
+                            </a>
+                            <a href="#" class="mb-1 button button-blue">
+                                <svg class="mr-1 md">
+                                    <use xlink:href="index.svg#lock-fill"></use>
+                                </svg>
+                                Make Offer
+                            </a>
+                            <a href="#" class="button button-outline-green">
+                                <svg class="mr-1 md">
+                                    <use xlink:href="index.svg#eye-fill"></use>
+                                </svg>
+                                Make Offer
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-medium mb-2">About the seller</h3>
+                        <div class="seller-about mb-2">
+                            <img src="https://www.rightbiz.co.uk/thumbnails/_img/1/294359/?t=1654355126" alt="">
+                            <div>
+                                <a href="#" class="text-blue flex items-center font-medium">
+                                    Epoch Equity
+                                    <svg class="ml-1 sm">
+                                        <use xlink:href="index.svg#verified"></use>
+                                    </svg>
+                                </a>
+                                <div class="flex items-center text-sm font-medium text-grey">
+                                    <svg class="mr-1 sm fill-grey">
+                                        <use xlink:href="index.svg#map-fill"></use>
+                                    </svg>
+                                    United States
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap mb-2">
+                            <div class="seller-badge border-green text-green mr-1">
+                                Super Seller
+                            </div>
+                            <div class="seller-badge border-blue text-blue mr-1">
+                                Broker
+                            </div>
+                        </div>
+                        <p class="text-sm">We take the headaches out of selling a business. If you are considering selling you... Read more</p>
+                    </div>
+                    <hr class="my-4">
+                    <div>
+                        <h3 class="font-medium mb-2">Verification Complete</h3>
+                        <ul>
+                            <li class="flex items-center mb-1">
+                                <svg class="mr-1 md fill-green">
+                                    <use xlink:href="index.svg#check-fill"></use>
+                                </svg>
+                                Email address
+                            </li>
+                            <li class="flex items-center mb-1">
+                                <svg class="mr-1 md fill-green">
+                                    <use xlink:href="index.svg#check-fill"></use>
+                                </svg>
+                                Phone number
+                            </li>
+                            <li class="flex items-center mb-1">
+                                <svg class="mr-1 md fill-green">
+                                    <use xlink:href="index.svg#check-fill"></use>
+                                </svg>
+                                Government ID
+                            </li>
+                        </ul>
+                        <p><span class="font-semibold">100.0%</span> positive feedback</p>
+                    </div>
+                    <hr class="my-4">
+                    <div>
+                        <h3 class="font-medium mb-2">Payment Methods</h3>
+                        <ul>
+                            <li class="flex items-center">
+                                <svg class="mr-1 md fill-green">
+                                    <use xlink:href="index.svg#check-fill"></use>
+                                </svg>
+                                Escrow.com
+                            </li>
+                        </ul>
+                    </div>
+                    <hr class="my-4">
+                    <div class="p-2 border border-grey mb-4">
+                        <h3 class="font-medium mb-2">Buying Advice</h3>
+                        <p class="mb-2">Flippa's platform is free for buyers. Here are our tips for first-time buyers:</p>
+                        <div class="mb-2">
+                            <div class="border-t border-grey">
+                                <div class="flex justify-between py-1 advice-item-toggle">
+                                    Before making an offer
+                                    <svg class="ml-1 sm">
+                                        <use xlink:href="index.svg#chevron-down"></use>
+                                    </svg>
+                                </div>
+                                <div class="advice-item-content hidden pb-2 text-grey">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sunt, error nihil incidunt tempora explicabo ad fuga quae nemo! Doloremque?
+                                </div>
+                            </div>
+                            <div class="border-t border-grey">
+                                <div class="flex justify-between py-1 advice-item-toggle">
+                                    After a successful offer
+                                    <svg class="ml-1 sm">
+                                        <use xlink:href="index.svg#chevron-down"></use>
+                                    </svg>
+                                </div>
+                                <div class="advice-item-content hidden pb-2 text-grey">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sunt, error nihil incidunt tempora explicabo ad fuga quae nemo! Doloremque?
+                                </div>
+                            </div>
+                        </div>
+                        <p>For more buyer tips read our guide on <a href="#" class="text-blue">how to buy an eCommerce business.</a></p>
+                    </div>
+                    <div class="p-2 border border-grey mb-4">
+                        <h3 class="font-medium mb-2">Flippa <span class="text-orange">Legal</span></h3>
+                        <p class="mb-2">Engage a lawyer or buy a contract. <a href="#" class="text-blue">Learn More</a></p>
+                    </div>
+                    <div class="p-2 border border-grey mb-4">
+                        <h3 class="font-medium mb-2">Flippa <span class="text-orange">Due Diligence</span></h3>
+                        <p class="mb-2">A new business verification & assessment service from Flippa. <a href="#" class="text-blue">Learn More</a></p>
+                    </div>
+                    <div class="p-2 border border-grey mb-4">
+                        <h3 class="font-medium mb-2">Flippa <span class="text-green">Finder</span></h3>
+                        <p class="mb-2">A simpler way for first-time buyers to find and acquire online businesses. <a href="#" class="text-blue">Learn More</a></p>
+                    </div>
+                    <div class="p-2 border border-grey mb-4">
+                        <h3 class="font-medium mb-2">Flippa <span class="text-blue">Valuations</span></h3>
+                        <p class="mb-2">A simpler way for first-time buyers to find and acquire online businesses. <a href="#" class="text-blue">Get Started</a></p>
+                    </div>
+                    <div class="p-2 business-banner mb-4">
+                        <h3 class="text-lg font-semibold mb-2">Set your preferences to get personal recommendations</h3>
+                        <a href="#" class="button button-blue">Set buyer preferences →</a>
+                    </div>
+                    <div>
+                        <h3 class="font-medium mb-2">Community Watch</h3>
+                        <p class="mb-2">Does this listing violate the <a href="#" class="text-blue">Flippa Terms and Conditions?</a> If so, anonymously <a href="#" class="text-blue">report it here</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end: Content -->
+
+    <script src="../jquery.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script>
+        if($('.business-about').height() > 500) {
+            $('.business-about').addClass('collapse')
+        }
+
+        $('.business-about-read-all').click(function(e) {
+            e.preventDefault()
+            $('.business-about').removeClass('collapse')
+            $(this).remove()
+        })
+
+
+
+        $('.advice-item-toggle').click(function() {
+            $(this).toggleClass('active')
+            $(this).siblings('.advice-item-content').toggleClass('hidden')
+        })
+
+
+
+        $('[data-toggle="tab"]').click(function() {
+            $('.business-tab').removeClass('active')
+            $('[data-toggle="tab"]').removeClass('active')
+
+            $(this).addClass('active')
+            $($(this).attr('data-target')).addClass('active')
+        })
+    </script>
+    <script>
+        // Load the Visualization API and the corechart package.
+        google.charts.load('current', {'packages':['corechart']});
+
+        // Set a callback to run when the Google Visualization API is loaded.
+        google.charts.setOnLoadCallback(drawChart);
+        google.charts.setOnLoadCallback(drawAuthorityChart);
+
+        // Callback that creates and populates a data table,
+        // instantiates the pie chart, passes in the data and
+        // draws it.
+        function drawChart() {
+            // Create the data table.
+            var data = new google.visualization.arrayToDataTable([
+                ['Asking Price', 'Similar listings for sale', 'Similar listings sold', 'This listings'],
+                ['USD $60.000', .15, 3, .3],
+                ['USD $65.000', .9, .4, 1],
+                ['USD $70.000', 1.6, 2.3, 1.2],
+                ['USD $75.000', 2.7, .5, 1.3],
+            ]);
+
+            // Set chart options
+            var options = {
+                width:'100%',
+                height:400,
+                colors: [
+                    '#15BA51',
+                    '#FE0101',
+                    '#2D2D2D'
+                ],
+                legend: {position: 'top'}
+            };
+
+            // Instantiate and draw our chart, passing in some options.
+            var chart = new google.visualization.LineChart(document.getElementById('business-insight-chart'));
+            chart.draw(data, options);
+        }
+
+        function drawAuthorityChart() {
+            var data = google.visualization.arrayToDataTable([
+                ['Effort', 'Amount given'],
+                ['My all',     66],
+            ]);
+
+            var options = {
+                pieHole: 0.5,
+                width:200,
+                height:200,
+                colors: ['#FF622D'],
+                pieSliceTextStyle: {
+                    color: 'black',
+                },
+                legend: 'none'
+            };
+
+            var chart = new google.visualization.PieChart(document.getElementById('authority-score'));
+            chart.draw(data, options);
+        }
+    </script>
+</body>
+</html>
